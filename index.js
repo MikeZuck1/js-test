@@ -12,7 +12,7 @@ const exterieur = () => {
   return scopeGlobalVariable;   
 }
 console.log(exterieur());  
-
+ 
 // scope locale.  
 const interieur = () => {
   const scopeLocalVariable = 'Je suis déclaré à l\'intérieur.'
@@ -21,9 +21,9 @@ const interieur = () => {
 console.log(interieur());  
  
 // fonction conditionnelle. 
-function conditional () {
-  let galaxy = 'stars' 
-  galaxy = '';  
+function conditional () { 
+  let galaxy = 'stars'  
+  galaxy = '' 
   const nameUs = 'Mike'; 
   
   if (galaxy === 'sun') {
