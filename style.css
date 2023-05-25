@@ -1,3 +1,41 @@
 h1, h2 {
-  font-family: Lato;
+  font-family: 'roboto', sans-serif;
+  color: cyan; 
+  text-align: center;
+  text-decoration: underline; 
+  margin: 10px;
+} 
+
+body { 
+  background-color: #000;
 }
+
+p { 
+  background-color: aquamarine; 
+  color: #000; 
+  text-align: center; 
+  margin: 5px;
+  border-radius: 20px;
+}  
+
+.paragraph0,  
+.paragraph1,
+.paragraph2,
+.paragraph3 {
+  display: grid; /*Créer une grille*/  
+  grid-template: 100px 50px / 20% 10% 70%;  
+  /*
+  * Définir la structure de la grille (grid-template). 
+  * Deux rangées 200px 300px et trois colonnes 20% 10% 70%. 
+  * 
+  */
+}
+
+
+table {
+  color: blanchedalmond; 
+  margin-left: auto;
+  margin-right: auto; 
+  text-align: center;
+}
+
